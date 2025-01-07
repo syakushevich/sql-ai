@@ -7,7 +7,7 @@ import { makeMarkdownText } from "@assistant-ui/react-markdown";
 const MarkdownText = makeMarkdownText();
 
 export function MyAssistant() {
-  const runtime = useEdgeRuntime({ api: "/api/chat" });
+  const runtime = useEdgeRuntime({ api: "/api/sql-ai" });
 
   return (
     <Thread
